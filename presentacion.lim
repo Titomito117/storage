@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>0080FF</corfondo>
+        <corbanda>8080C0</corbanda>
+        <cornavega>000000</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Almacenamiento portatil</titulo>
+        <autor>Christian andrade</autor>
+        <logo>DVD-Video_bottom-side.jpg</logo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="correct3-95630.mp3" modo="1" >Muy bien</correcto>
+        <incorrecto son="error-126627.mp3" modo="1" >Intentalo de nuevo</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>38</tipo>
+              <imaxe>almacenamiento-masivo.jpg</imaxe>
+              <forma>3</forma>
+              <texto><![CDATA[
+<p align="left">
+<font color="#080000" face="Arial" size="54">Tipos de almacenamientos portatiles </font></p>
+]]></texto>
+              <ctexto>000000</ctexto>
+        </paxina>
+        <paxina id="2" >
+              <tipo>16</tipo>
+              <externa><![CDATA[&lt;iframe width=&quot;560&quot; height=&quot;560&quot; src=&quot;https://www.youtube.com/embed/V7qg1WGSdvc&quot; title=&quot;Evolución de los dispositivos de almacenamiento&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;]]></externa>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+              <imaxe>Disco_5.25.jpeg</imaxe>
+              <texto>En que decada surgio el disquete?</texto>
+              <resp texto="" valor="0">1950</resp>
+              <resp texto="" valor="0">1960</resp>
+              <resp texto="" valor="1">1970</resp>
+              <resp texto="" valor="0">1980</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>17</tipo>
+              <parellas>DVD-Video_bottom-side.jpg</parellas>
+              <parellas>DD_external.jpeg</parellas>
+              <parellas>micro_sd.jpeg</parellas>
+              <parellas>USB.jpg</parellas>
+              <parellas>Disco_5.25.jpeg</parellas>
+              <parellas>Kaseta_magnetofonowa_ubt.jpeg</parellas>
+              <cfondo>0080FF</cfondo>
+              <ctapa>000000</ctapa>
+              <tempo>60</tempo>
+        </paxina>
+        <paxina id="5" >
+              <tipo>3</tipo>
+              <imaxe>Disco_5.25.jpeg</imaxe>
+              <imfondo  trans="5">Disco_5.25.jpeg</imfondo>
+              <filas>4</filas>
+              <columnas>4</columnas>
+              <reixa>0</reixa>
+            <forma>0</forma>
+        </paxina>
+        <paxina id="6" >
+              <tipo>11</tipo>
+              <modo>3</modo>
+              <cousa nome="disco externo ">DD_external.jpeg</cousa>
+              <cousa nome="disquete ">Disco_5.25.jpeg</cousa>
+              <cousa nome="dvd">DVD-Video_bottom-side.jpg</cousa>
+              <cousa nome="micro sd ">micro_sd.jpeg</cousa>
+              <cousa nome="usb">USB.jpg</cousa>
+        </paxina>
+        <paxina id="7" >
+              <tipo>4</tipo>
+              <modo>2</modo>
+              <sopa enun="Disco_5.25.jpeg">disquete</sopa>
+              <sopa enun="DVD-Video_bottom-side.jpg">dvd</sopa>
+              <sopa enun="micro_sd.jpeg">microsd</sopa>
+              <sopa enun="USB.jpg">usb</sopa>
+              <sopa enun="Kaseta_magnetofonowa_ubt.jpeg">casete</sopa>
+              <sopa enun="DD_mg.jpg">discoduro</sopa>
+              <enunciado>0</enunciado>
+              <colorea>1</colorea>
+              <cadro>1</cadro>
+        </paxina>
+    </libro>
+</lim>
